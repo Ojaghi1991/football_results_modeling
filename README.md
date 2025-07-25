@@ -1,7 +1,5 @@
 # Basic Code on 1991/92 season (To check similarity with paper values)
 
-<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"></pre>
-
     Basic model fitting completed!
 
     ==================================================
@@ -37,7 +35,7 @@
         Ascoli   -0.2288     -0.2287   -0.5283    0.0545    0.4734      0.4748    0.2456    0.6996
         Verona   -0.2623     -0.2608   -0.5727    0.0211    0.3206      0.3204    0.0713    0.5586
 
-![png](output_1_7.png)
+![png](data/output_1_7.png)
 
     Basic model fitting completed!
 
@@ -87,7 +85,7 @@
      Livorno  0.107157 -0.074162  0.310872
        Parma  0.126512 -0.062089  0.328707
 
-![png](output_3_7.png)
+![png](data/output_3_7.png)
 
     ======================================================================
     COMPREHENSIVE TRACE PLOT ANALYSIS - BASIC MODEL
@@ -97,7 +95,7 @@
 
     Generating trace plots for basic model...
 
-![png](output_3_9.png)
+![png](data/output_3_9.png)
 
     ============================================================
     CONVERGENCE DIAGNOSTICS - BASIC MODEL
@@ -114,7 +112,7 @@
 
     Generating team effect trace plots for: Atalanta, Cagliari, Catania
 
-![png](output_3_11.png)
+![png](data/output_3_11.png)
 
     3. Convergence Diagnostics:
 
@@ -192,7 +190,7 @@
      Livorno  0.146957 -0.057641  0.363708
        Parma  0.172534 -0.034212  0.395836
 
-![png](output_3_19.png)
+![png](data/output_3_19.png)
 
     ======================================================================
     COMPREHENSIVE TRACE PLOT ANALYSIS - MIXTURE MODEL
@@ -202,7 +200,7 @@
 
     Generating trace plots for mixture model...
 
-![png](output_3_21.png)
+![png](data/output_3_21.png)
 
     ============================================================
     CONVERGENCE DIAGNOSTICS - MIXTURE MODEL
@@ -219,7 +217,7 @@
 
     Generating team effect trace plots for: Atalanta, Cagliari, Catania
 
-![png](output_3_23.png)
+![png](data/output_3_23.png)
 
     3. Convergence Diagnostics:
 
@@ -502,7 +500,7 @@
      Torino          0.2154 25382.5293         76.7     19468.4
       Siena          0.1833 13500.2628         76.1     10273.7
 
-![png](output_5_13.png)
+![png](data/output_5_13.png)
 
     ============================================================
     FITTING FULL COVARIATE MODEL
@@ -563,7 +561,7 @@
      Torino         -0.4652 25382.5293         76.7     19468.4
       Siena         -0.4957 13500.2628         76.1     10273.7
 
-![png](output_5_21.png)
+![png](data/output_5_21.png)
 
     ================================================================================
     COMPREHENSIVE MODEL COMPARISON
