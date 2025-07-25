@@ -1,49 +1,5 @@
 # Basic Code on 1991/92 season (To check similarity with paper values)
 
-    ✅ Saved Table 2 to Table2_SerieA_2007-08.xlsx
-    ======================================================================
-    INTEGRATED BAYESIAN FOOTBALL MODEL
-    Combines Visualization + Comparison Tables + Predictions
-    ======================================================================
-    Initializing Bayesian Football Model...
-    Initializing model with data file: /content/final dataset 2007-08.xlsx
-    Original data shape: (306, 7)
-    Columns: ['g', 'home team', 'away team', 'h(g)', 'a(g)', 'y1', 'y2']
-    Data loaded: 306 games, 18 teams
-    Teams: ['Ascoli', 'Atalanta', 'Bari', 'Cagliari', 'Cremonese', 'Fiorentina', 'Foggia', 'Genoa', 'Inter', 'Juventus', 'Lazio', 'Milan', 'Napoli', 'Parma', 'Roma', 'Sampdoria', 'Torino', 'Verona']
-    n_games type: <class 'int'>, value: 306
-    n_teams type: <class 'int'>, value: 18
-    ✓ Model initialization completed successfully
-    ✓ Final check - n_games: 306, n_teams: 18
-    ======================================================================
-    COMPLETE BAYESIAN FOOTBALL MODEL ANALYSIS
-    ======================================================================
-
-    ==================================================
-    FITTING BASIC MODEL
-    ==================================================
-    Fitting basic hierarchical model...
-    Building model with 306 games and 18 teams
-    Home team indices range: 0 to 17
-    Away team indices range: 0 to 17
-    Goals range - Home: 0 to 5, Away: 0 to 8
-    Model built successfully!
-
-
-
-    Output()
-
-<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"></pre>
-
-    WARNING:pymc.stats.convergence:Chain 0 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    WARNING:pymc.stats.convergence:Chain 1 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    WARNING:pymc.stats.convergence:Chain 3 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    ERROR:pymc.stats.convergence:The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
-
-
-
-    Output()
-
 <pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"></pre>
 
     Basic model fitting completed!
@@ -82,61 +38,6 @@
         Verona   -0.2623     -0.2608   -0.5727    0.0211    0.3206      0.3204    0.0713    0.5586
 
 ![png](output_1_7.png)
-
-    🎉 SUCCESS! All analysis completed.
-
-    You can now use the model object to:
-    - model.predict_match('Team1', 'Team2', 'basic')
-    - model.plot_team_effects('mixture')
-    - model.print_model_summary('basic')
-    - model.create_extended_comparison_table()
-
-    ======================================================================
-    INTEGRATED BAYESIAN FOOTBALL MODEL
-    Combines Visualization + Comparison Tables + Predictions + Traceplots
-    ======================================================================
-    Initializing Bayesian Football Model...
-    Initializing model with data file: /content/final dataset 2007-08.xlsx
-    Original data shape: (380, 9)
-    Columns: ['hometeam_id', 'awayteam_id', 'hometeam_name', 'awayteam_name', 'y1', 'y2', 'matchday', 'points home', 'points away']
-    Data loaded: 380 games, 20 teams
-    Teams: ['Atalanta', 'Cagliari', 'Catania', 'Empoli', 'Fiorentina', 'Genoa', 'Internazionale', 'Juventus', 'Lazio', 'Livorno', 'Milan', 'Napoli', 'Palermo', 'Parma', 'Reggina', 'Roma', 'Sampdoria', 'Siena', 'Torino', 'Udinese']
-    n_games type: <class 'int'>, value: 380
-    n_teams type: <class 'int'>, value: 20
-    ✓ Model initialization completed successfully
-    ✓ Final check - n_games: 380, n_teams: 20
-    ======================================================================
-    COMPLETE BAYESIAN FOOTBALL MODEL ANALYSIS
-    ======================================================================
-
-    ==================================================
-    FITTING BASIC MODEL
-    ==================================================
-    Fitting basic hierarchical model...
-    Building model with 380 games and 20 teams
-    Home team indices range: 0 to 19
-    Away team indices range: 0 to 19
-    Goals range - Home: 0 to 5, Away: 0 to 5
-    Model built successfully!
-
-
-
-    Output()
-
-<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"></pre>
-
-    ERROR:pymc.stats.convergence:There were 5 divergences after tuning. Increase `target_accept` or reparameterize.
-    WARNING:pymc.stats.convergence:Chain 0 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    WARNING:pymc.stats.convergence:Chain 1 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    WARNING:pymc.stats.convergence:Chain 2 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    WARNING:pymc.stats.convergence:Chain 3 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    ERROR:pymc.stats.convergence:The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
-
-
-
-    Output()
-
-<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"></pre>
 
     Basic model fitting completed!
 
@@ -241,15 +142,6 @@
 
     Output()
 
-<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"></pre>
-
-    ERROR:pymc.stats.convergence:The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
-
-
-
-    Output()
-
-<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"></pre>
 
     Mixture model fitting completed!
     ✓ Mixture model fitted successfully!
@@ -556,20 +448,6 @@
 
 
 
-    Output()
-
-<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"></pre>
-
-    ERROR:pymc.stats.convergence:There were 70 divergences after tuning. Increase `target_accept` or reparameterize.
-    WARNING:pymc.stats.convergence:Chain 1 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    WARNING:pymc.stats.convergence:Chain 2 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    ERROR:pymc.stats.convergence:The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
-
-
-
-    Output()
-
-<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"></pre>
 
     Basic model fitting completed!
 
@@ -587,22 +465,6 @@
     ✓ Enhanced stadium model built successfully
 
 
-
-    Output()
-
-<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"></pre>
-
-    WARNING:pymc.stats.convergence:Chain 0 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    WARNING:pymc.stats.convergence:Chain 1 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    WARNING:pymc.stats.convergence:Chain 2 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    WARNING:pymc.stats.convergence:Chain 3 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    ERROR:pymc.stats.convergence:The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
-
-
-
-    Output()
-
-<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"></pre>
 
     Enhanced model fitting completed!
 
@@ -653,20 +515,7 @@
 
     Output()
 
-<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"></pre>
 
-    ERROR:pymc.stats.convergence:There was 1 divergence after tuning. Increase `target_accept` or reparameterize.
-    WARNING:pymc.stats.convergence:Chain 0 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    WARNING:pymc.stats.convergence:Chain 1 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    WARNING:pymc.stats.convergence:Chain 2 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    WARNING:pymc.stats.convergence:Chain 3 reached the maximum tree depth. Increase `max_treedepth`, increase `target_accept` or reparameterize.
-    ERROR:pymc.stats.convergence:The effective sample size per chain is smaller than 100 for some parameters.  A higher number is needed for reliable rhat and ess computation. See https://arxiv.org/abs/1903.08008 for details
-
-
-
-    Output()
-
-<pre style="white-space:pre;overflow-x:auto;line-height:normal;font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"></pre>
 
     Full covariate model fitting completed!
 
